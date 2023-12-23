@@ -13,6 +13,12 @@ public class DemoRestController {
     {
         return "Hello World,this is hotfix!";
     }
+    
+    @GetMapping("/getHello")
+    public String getHello()
+    {
+        return "This is getHello fix";
+    }
 
 
 
